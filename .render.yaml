@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: formr
+    env: docker
+    repo: https://github.com/jenyiyen/formr.org
+    plan: free
+    branch: master
+    dockerfilePath: Dockerfile
+    healthCheckPath: /
+    autoDeploy: true
